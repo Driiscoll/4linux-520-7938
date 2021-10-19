@@ -9,5 +9,5 @@ elif ano_nasc >= 1965 and ano_nasc <=1979:
 elif ano_nasc >= 1980 and ano_nasc <= 1994:
     print("Geração: Y")
 
-elif ano_nasc >= 1995:
+else:
     print("Geração: Z")
