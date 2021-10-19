@@ -1,6 +1,6 @@
 habilitado = input("Você é habilitado? ")
 
-if habilitado.lower() == 'sim':
+if habilitado.lower().startswith('s') == 'sim':
     print("Você pode dirigir!")
 
 else:
