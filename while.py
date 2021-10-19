@@ -5,8 +5,8 @@ while valor > 0:
     if valor % 2!=0:
         continue
 
-    if valor == 0:
-        break
+    #if valor == 0:
+    #    break
 
     print("Valor: ", valor)
 
