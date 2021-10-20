@@ -31,3 +31,6 @@ print('pos sort and reverse: ',nomes)
 print("\nSobreviventes")
 for nome in nomes:
     print(nome)
+
+nomes[0] = 'Vinicius Gilbertoni'
+nomes[1] = 'Paulo Roberto'
