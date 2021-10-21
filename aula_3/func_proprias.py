@@ -1,9 +1,16 @@
 
 
-def somar (a, b, c=0):
-    #teste de importe
-    return a + b + c
+def somar (*valores):
+    soma = 0
+    # tupla sendo somada em um 'for'
+    for num in valores:
+        soma += num
 
-def subtrair(a, b):
-    return a - b
+    return soma
 
+#def subtrair(a, b):
+ #   return a - b
+
+
+def montar_nome(*nomes, sep=' '):
+    return sep.join(nomes)
