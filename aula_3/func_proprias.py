@@ -12,5 +12,6 @@ def somar (*valores):
  #   return a - b
 
 
-def montar_nome(*nomes, sep=' '):
-    return sep.join(nomes)
+def montar_nome(*nomes, **opcoes):
+
+    return opcoes.get('sep', ' ').join(nomes)
