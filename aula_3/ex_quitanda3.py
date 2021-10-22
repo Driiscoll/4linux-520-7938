@@ -51,9 +51,6 @@ def checkout():
         
     print(f"Total: R$ {total}")
 
-def sair():
-        print("até Logo!")
-
 
 
 while True:
@@ -65,5 +62,5 @@ while True:
     elif a == 3:
         checkout()
     else:
-        sair()
+        print("até logo")
         break
